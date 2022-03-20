@@ -6,12 +6,16 @@ body{
 background-color: aliceblue;
 }
 
+/* Card Style */
+
 section{
     width: 20%;
     float: left;
     margin-top: 180px;
     position: relative;
     right: -20%;
+    font-family: 'Noto Serif', serif;
+    padding: 20px;
 }
 
 .sedans{
@@ -24,6 +28,33 @@ section{
 
 .luxury{
     background-color: #4A7B9D;
+}
+
+/* Card header */
+
+.header{
+    text-transform: uppercase;
+    color: white;
+}
+
+/* button style */
+
+button{
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.sedanButton{
+    color: #9AA899;
+}
+
+.suvButton{
+    color: #54577C;
+}
+
+.luxuryButton{
+    color: #4A7B9D;
 }
 
 .attribution { 
