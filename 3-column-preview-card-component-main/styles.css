@@ -1,3 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: aliceblue;
+}
+
+.sedans{
+    background-color: #9AA899;
+}
+
+.suvs{
+    background-color: #54577C;
+}
+
+.luxury{
+    background-color: #4A7B9D;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
